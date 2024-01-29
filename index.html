@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
     <title>Login</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
-<body>
-    <header class="header">
-        <h2>
-            Login
-        </h2>
-    </header>
+<body class="h-screen">
+    <div class="container">
+        <form action="#" method="post">
+            <h2>Login</h2>
+            <div class="usuarios">
+                <label for="nombreUsuario">Username</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+            </div>
+            <div class="usuarios">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>
