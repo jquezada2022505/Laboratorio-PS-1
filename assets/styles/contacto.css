@@ -106,3 +106,21 @@ button:hover {
 .person-info h2 {
     margin-top: 0;
 }
+
+footer {
+    background-color: #00296b;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color: #00296b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
