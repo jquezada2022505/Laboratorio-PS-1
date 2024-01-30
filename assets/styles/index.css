@@ -10,19 +10,18 @@ body {
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
     padding: 20px;
     background-color: darkblue;
-    border-radius: 5px;
-    box-shadow: 0 0 10px darkblue;
+    border-radius: 20px;
+    box-shadow: 0 0 50px darkblue;
     color: aliceblue;
-    
 }
 
 form h2 {
     text-align: center;
     margin-bottom: 20px;
+    max-width: 100%;
+    margin: 20px auto;
 }
 
 .usuarios {
@@ -58,10 +57,16 @@ button:hover {
     background-color: darkblue;
 }
 
-.h-screen{
+.h-screen {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+}
+
+.imgLogin {
+    width: 220px;
+    height: 220px;
 }
