@@ -18,7 +18,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     if (isValid) {
         alert("BIENVENIDO AL SISTEMA");
-        window.location.href = "home.html";
+        window.location.href = "contactos.html";
     } else {
         alert("Contraseña incorrecta, intente de nuevo");
 
