@@ -1,11 +1,19 @@
-h2{
+h2 {
     color: white;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-header{
+body {
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 20px;
+    box-shadow: 0 0 50px darkblue;
+    color: aliceblue;
+}
+
+header {
     color: white;
     text-align: center;
     padding: 20px;
@@ -13,10 +21,9 @@ header{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button{
-    display: block;
+button {
     margin: 1%;
-    margin-top: 2%;
+    margin-top: auto;
     background-color: #00296b;
     border-radius: 3px;
     color: white;
@@ -24,17 +31,35 @@ button{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
     text-decoration-line: none;
 }
 
-section{
+section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #cd9564;
-    margin: 5%;
-    border-radius: 5vh;
-    width: 500px;
-    height: 500px;
+    margin: 10%;
     text-align: center;
+    margin-top: 2%;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    background-color: #fff;
+    border-radius: 5px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h3 {
+    margin-top: 0;
 }
