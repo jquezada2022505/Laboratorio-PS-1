@@ -149,3 +149,32 @@ a {
     width: 50px;
     height: auto;
 }
+
+.profile-info {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.profile-info.active {
+    display: block;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.profile-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.imgPerfil {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 125px;
+    object-fit: cover;
+    cursor: pointer;
+}
