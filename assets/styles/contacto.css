@@ -116,7 +116,7 @@ footer {
     padding: 20px;
 }
 
-img{
+img {
     width: 300px;
     height: 300px;
 }
@@ -132,7 +132,7 @@ button {
     cursor: pointer;
 }
 
-a{
+a {
     text-decoration-line: none;
 }
 
@@ -149,5 +149,3 @@ a{
     width: 50px;
     height: auto;
 }
-
-
