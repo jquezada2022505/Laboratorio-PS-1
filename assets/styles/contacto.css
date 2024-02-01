@@ -153,6 +153,13 @@ a {
 .profile-info {
     display: none;
     margin-bottom: 20px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .profile-info.active {
@@ -161,12 +168,12 @@ a {
 
 .profile-info p {
     margin: 5px 0;
-    color: #666;
+    color: black;
 }
 
 .profile-info h2 {
-    color: #333;
     margin-bottom: 10px;
+    color: black;
 }
 
 .imgPerfil {
@@ -177,4 +184,14 @@ a {
     height: 125px;
     object-fit: cover;
     cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    /* Alinea a la derecha */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    /* Evita que el texto de la información del perfil tenga subrayado */
 }
