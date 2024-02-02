@@ -1,6 +1,5 @@
 var usuarios = [
     { nombreUsuario: "admin", password: "123" },
-    { nombreUsuario: "user", password: "123" },
 ];
 
 document.querySelector('form').addEventListener('submit', function(event) {
