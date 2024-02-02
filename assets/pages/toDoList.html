@@ -5,10 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/toDoList.css">
     <title>ToDo List</title>
 </head>
 
 <body>
+
+    <h1>Lista de Pendientes</h1>
+
+    <div id="lista-pendientes">
+
+    </div>
+
+    <form id="formulario-pendiente">
+        <input type="text" id="nuevo-pendiente" placeholder="Agregar pendiente" required>
+        <select id="prioridad">
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+    </select>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <div id="lista-pendientes">
+    </div>
+
+    <script src="../javaScript/toDoList.js"></script>
 
 </body>
 
